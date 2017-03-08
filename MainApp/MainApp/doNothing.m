@@ -7,11 +7,13 @@
 //
 
 #import "doNothing.h"
-
+#import <DrawShapes/draw.h>
 @implementation doNothing
 
 -(void)doNothing {
-    
+   
+    draw *draw1 = [[draw alloc]init];
+    [draw1 drawRectangle];
 }
 
 @end

@@ -14,8 +14,59 @@
 		042462C61E7060AE000B5CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042462C51E7060AE000B5CDF /* Assets.xcassets */; };
 		042462C91E7060AE000B5CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042462C71E7060AE000B5CDF /* LaunchScreen.storyboard */; };
 		042462D21E7066DC000B5CDF /* doNothing.m in Sources */ = {isa = PBXBuildFile; fileRef = 042462D11E7066DC000B5CDF /* doNothing.m */; };
+		042463031E706A88000B5CDF /* DrawShapes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042463021E706A88000B5CDF /* DrawShapes.framework */; };
+		042463051E706CBB000B5CDF /* DrawShapes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 042463021E706A88000B5CDF /* DrawShapes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04F506461E70743000EE2A94 /* DrawShapes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F506451E70743000EE2A94 /* DrawShapes.framework */; };
+		04F5064F1E707C3200EE2A94 /* testTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5064E1E707C3200EE2A94 /* testTarget.m */; };
+		04F506501E707C3200EE2A94 /* testTarget.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04F5064D1E707C3200EE2A94 /* testTarget.h */; };
+		04F506571E707DBF00EE2A94 /* doNothing.m in Sources */ = {isa = PBXBuildFile; fileRef = 042462D11E7066DC000B5CDF /* doNothing.m */; };
+		04F506581E707DBF00EE2A94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042462C01E7060AE000B5CDF /* ViewController.m */; };
+		04F506591E707DBF00EE2A94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042462BD1E7060AE000B5CDF /* AppDelegate.m */; };
+		04F5065A1E707DBF00EE2A94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042462BA1E7060AE000B5CDF /* main.m */; };
+		04F5065C1E707DBF00EE2A94 /* DrawShapes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042463021E706A88000B5CDF /* DrawShapes.framework */; };
+		04F5065D1E707DBF00EE2A94 /* libPods-MainApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8BB907E4B1FC1E11CE3F30 /* libPods-MainApp.a */; };
+		04F5065E1E707DBF00EE2A94 /* DrawShapes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F506451E70743000EE2A94 /* DrawShapes.framework */; };
+		04F506601E707DBF00EE2A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042462C71E7060AE000B5CDF /* LaunchScreen.storyboard */; };
+		04F506611E707DBF00EE2A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042462C51E7060AE000B5CDF /* Assets.xcassets */; };
+		04F506621E707DBF00EE2A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042462C21E7060AE000B5CDF /* Main.storyboard */; };
+		04F506661E707DBF00EE2A94 /* DrawShapes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 042463021E706A88000B5CDF /* DrawShapes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		06E77C6D9136DE85F03A8837 /* libPods-MainApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8BB907E4B1FC1E11CE3F30 /* libPods-MainApp.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		042463061E706CBB000B5CDF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				042463051E706CBB000B5CDF /* DrawShapes.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F506491E707C3100EE2A94 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				04F506501E707C3200EE2A94 /* testTarget.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F506651E707DBF00EE2A94 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04F506661E707DBF00EE2A94 /* DrawShapes.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		042462B61E7060AE000B5CDF /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +81,13 @@
 		042462CA1E7060AE000B5CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042462D01E7066DC000B5CDF /* doNothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doNothing.h; sourceTree = "<group>"; };
 		042462D11E7066DC000B5CDF /* doNothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doNothing.m; sourceTree = "<group>"; };
+		042463021E706A88000B5CDF /* DrawShapes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DrawShapes.framework; path = /Users/mekhala.vithala/testPods/MainApp/DrawShapes.framework; sourceTree = "<absolute>"; };
+		04F506451E70743000EE2A94 /* DrawShapes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DrawShapes.framework; sourceTree = "<group>"; };
+		04F5064B1E707C3100EE2A94 /* libtestTarget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtestTarget.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F5064D1E707C3200EE2A94 /* testTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testTarget.h; sourceTree = "<group>"; };
+		04F5064E1E707C3200EE2A94 /* testTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTarget.m; sourceTree = "<group>"; };
+		04F5066A1E707DBF00EE2A94 /* MainApp copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MainApp copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F5066B1E707DBF00EE2A94 /* MainApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MainApp copy-Info.plist"; path = "/Users/mekhala.vithala/testPods/MainApp/MainApp copy-Info.plist"; sourceTree = "<absolute>"; };
 		3D8BB907E4B1FC1E11CE3F30 /* libPods-MainApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MainApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B5FDBE2BB6ECA50EA128F4 /* Pods-MainApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MainApp/Pods-MainApp.release.xcconfig"; sourceTree = "<group>"; };
 		DA2EA0CF91DFEA3156555940 /* Pods-MainApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MainApp/Pods-MainApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -40,7 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042463031E706A88000B5CDF /* DrawShapes.framework in Frameworks */,
 				06E77C6D9136DE85F03A8837 /* libPods-MainApp.a in Frameworks */,
+				04F506461E70743000EE2A94 /* DrawShapes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F506481E707C3100EE2A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F5065B1E707DBF00EE2A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F5065C1E707DBF00EE2A94 /* DrawShapes.framework in Frameworks */,
+				04F5065D1E707DBF00EE2A94 /* libPods-MainApp.a in Frameworks */,
+				04F5065E1E707DBF00EE2A94 /* DrawShapes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +128,11 @@
 			isa = PBXGroup;
 			children = (
 				042462B81E7060AE000B5CDF /* MainApp */,
+				04F5064C1E707C3100EE2A94 /* testTarget */,
 				042462B71E7060AE000B5CDF /* Products */,
 				CAC3F68824E9A3B32CDC33A6 /* Pods */,
 				DEA50C6053FCB423C45AF760 /* Frameworks */,
+				04F5066B1E707DBF00EE2A94 /* MainApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				042462B61E7060AE000B5CDF /* MainApp.app */,
+				04F5064B1E707C3100EE2A94 /* libtestTarget.a */,
+				04F5066A1E707DBF00EE2A94 /* MainApp copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +180,15 @@
 			name = Internal;
 			sourceTree = "<group>";
 		};
+		04F5064C1E707C3100EE2A94 /* testTarget */ = {
+			isa = PBXGroup;
+			children = (
+				04F5064D1E707C3200EE2A94 /* testTarget.h */,
+				04F5064E1E707C3200EE2A94 /* testTarget.m */,
+			);
+			path = testTarget;
+			sourceTree = "<group>";
+		};
 		CAC3F68824E9A3B32CDC33A6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +201,7 @@
 		DEA50C6053FCB423C45AF760 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04F506451E70743000EE2A94 /* DrawShapes.framework */,
 				3D8BB907E4B1FC1E11CE3F30 /* libPods-MainApp.a */,
 			);
 			name = Frameworks;
@@ -129,6 +220,7 @@
 				042462B41E7060AE000B5CDF /* Resources */,
 				BB4DD53462E14E1567A197BE /* [CP] Embed Pods Frameworks */,
 				CD58314399C734B93C333B7F /* [CP] Copy Pods Resources */,
+				042463061E706CBB000B5CDF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,6 +229,44 @@
 			name = MainApp;
 			productName = MainApp;
 			productReference = 042462B61E7060AE000B5CDF /* MainApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F5064A1E707C3100EE2A94 /* testTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F506511E707C3200EE2A94 /* Build configuration list for PBXNativeTarget "testTarget" */;
+			buildPhases = (
+				04F506471E707C3100EE2A94 /* Sources */,
+				04F506481E707C3100EE2A94 /* Frameworks */,
+				04F506491E707C3100EE2A94 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testTarget;
+			productName = testTarget;
+			productReference = 04F5064B1E707C3100EE2A94 /* libtestTarget.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		04F506541E707DBF00EE2A94 /* MainApp copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F506671E707DBF00EE2A94 /* Build configuration list for PBXNativeTarget "MainApp copy" */;
+			buildPhases = (
+				04F506551E707DBF00EE2A94 /* [CP] Check Pods Manifest.lock */,
+				04F506561E707DBF00EE2A94 /* Sources */,
+				04F5065B1E707DBF00EE2A94 /* Frameworks */,
+				04F5065F1E707DBF00EE2A94 /* Resources */,
+				04F506631E707DBF00EE2A94 /* [CP] Embed Pods Frameworks */,
+				04F506641E707DBF00EE2A94 /* [CP] Copy Pods Resources */,
+				04F506651E707DBF00EE2A94 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MainApp copy";
+			productName = MainApp;
+			productReference = 04F5066A1E707DBF00EE2A94 /* MainApp copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,6 +282,14 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 2UAV38D2MU;
 						ProvisioningStyle = Automatic;
+					};
+					04F5064A1E707C3100EE2A94 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2UAV38D2MU;
+						ProvisioningStyle = Automatic;
+					};
+					04F506541E707DBF00EE2A94 = {
+						DevelopmentTeam = 2UAV38D2MU;
 					};
 				};
 			};
@@ -169,6 +307,8 @@
 			projectRoot = "";
 			targets = (
 				042462B51E7060AE000B5CDF /* MainApp */,
+				04F5064A1E707C3100EE2A94 /* testTarget */,
+				04F506541E707DBF00EE2A94 /* MainApp copy */,
 			);
 		};
 /* End PBXProject section */
@@ -184,9 +324,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04F5065F1E707DBF00EE2A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F506601E707DBF00EE2A94 /* LaunchScreen.storyboard in Resources */,
+				04F506611E707DBF00EE2A94 /* Assets.xcassets in Resources */,
+				04F506621E707DBF00EE2A94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		04F506551E707DBF00EE2A94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		04F506631E707DBF00EE2A94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MainApp/Pods-MainApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		04F506641E707DBF00EE2A94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MainApp/Pods-MainApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		322DDC7D5381CD39BE4556EF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +438,25 @@
 				042462C11E7060AE000B5CDF /* ViewController.m in Sources */,
 				042462BE1E7060AE000B5CDF /* AppDelegate.m in Sources */,
 				042462BB1E7060AE000B5CDF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F506471E707C3100EE2A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F5064F1E707C3200EE2A94 /* testTarget.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F506561E707DBF00EE2A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F506571E707DBF00EE2A94 /* doNothing.m in Sources */,
+				04F506581E707DBF00EE2A94 /* ViewController.m in Sources */,
+				04F506591E707DBF00EE2A94 /* AppDelegate.m in Sources */,
+				04F5065A1E707DBF00EE2A94 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +580,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UAV38D2MU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bottlerocketstudios.MainApp;
@@ -379,7 +597,65 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UAV38D2MU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MainApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bottlerocketstudios.MainApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04F506521E707C3200EE2A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2UAV38D2MU;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		04F506531E707C3200EE2A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2UAV38D2MU;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		04F506681E707DBF00EE2A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2EA0CF91DFEA3156555940 /* Pods-MainApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UAV38D2MU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "MainApp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bottlerocketstudios.MainApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04F506691E707DBF00EE2A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B5FDBE2BB6ECA50EA128F4 /* Pods-MainApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UAV38D2MU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "MainApp copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bottlerocketstudios.MainApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -403,6 +679,23 @@
 			buildConfigurations = (
 				042462CE1E7060AE000B5CDF /* Debug */,
 				042462CF1E7060AE000B5CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F506511E707C3200EE2A94 /* Build configuration list for PBXNativeTarget "testTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F506521E707C3200EE2A94 /* Debug */,
+				04F506531E707C3200EE2A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04F506671E707DBF00EE2A94 /* Build configuration list for PBXNativeTarget "MainApp copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F506681E707DBF00EE2A94 /* Debug */,
+				04F506691E707DBF00EE2A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

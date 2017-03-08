@@ -1,0 +1,6 @@
+framework module DrawShapes {
+  umbrella header "DrawShapes.h"
+
+  export *
+  module * { export * }
+}
